@@ -11,50 +11,39 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
-h1 {
+.title {
     text-align: center;
     color: #333;
+    margin-bottom: 20px;
 }
-.referral-link {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px 0;
+.event {
+    background-color: #ffedcc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
-.referral-link input {
-    width: 80%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+.event-title {
+    color: #ff8c00;
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
-.referral-link button {
-    width: 15%;
-    padding: 10px;
-    background-color: #0088cc;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.referral-link button:hover {
-    background-color: #005f8d;
-}
-.social-share {
-    text-align: center;
-    margin: 20px 0;
-}
-.social-share button {
+.invite-button {
     padding: 10px 20px;
-    margin: 5px;
+    background-color: #ff8c00;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #0088cc;
-    color: #fff;
+    margin-top: 20px;
 }
-.social-share button:hover {
-    background-color: #005f8d;
+.invite-button:hover {
+    background-color: #e67600;
+}
+.referral-stats {
+    font-size: 1.2em;
+    color: #777;
 }
 .menu {
     display: flex;
