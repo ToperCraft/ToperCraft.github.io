@@ -64,7 +64,7 @@ body {
 .menu-item img {
     width: 30px;
     height: 30px;
-    filter: brightness(0) invert(1); /* Asegura visibilidad de iconos en fondo oscuro */
+    filter: invert(1); /* Asegura visibilidad de iconos en fondo oscuro */
 }
 .menu-item span {
     display: block;
