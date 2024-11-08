@@ -8,7 +8,7 @@ body {
 .container {
     max-width: 600px;
     margin: 50px auto;
-    background-color: rgba(255, 255, 255, 0.1); /* Fondo semitransparente */
+    background-color: rgba(255, 000, 000, 0.1); /* Fondo semitransparente */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -32,7 +32,7 @@ body {
 }
 .invite-button {
     padding: 10px 20px;
-    background-color: #00000;
+    background-color: #000000;
     color: white;
     border: none;
     border-radius: 5px;
@@ -40,7 +40,7 @@ body {
     margin-top: 20px;
 }
 .invite-button:hover {
-    background-color: #e67600;
+    background-color: #000000;
 }
 .referral-stats {
     font-size: 1.2em;
