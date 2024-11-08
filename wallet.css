@@ -1,0 +1,92 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Fondo negro */
+    margin: 0;
+    padding: 0;
+    color: #87CEEB; /* Letras celestes */
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo negro semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.title {
+    text-align: center;
+    color: #87CEEB; /* Letras celestes */
+    margin-bottom: 20px;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+    padding: 10px 0;
+    border-top: 1px solid #87CEEB; /* Borde celeste */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.menu-item {
+    text-align: center;
+    flex: 1;
+    padding: 10px;
+}
+.menu-item img {
+    width: 30px;
+    height: 30px;
+    filter: invert(1); /* Asegura visibilidad de iconos en fondo oscuro */
+}
+.menu-item span {
+    display: block;
+    margin-top: 5px;
+    color: #87CEEB; /* Letras celestes */
+}
+
+/* Estilos específicos para la sección de Wallet */
+.wallet-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo negro semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.wallet-balance, .wallet-transactions {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #87CEEB; /* Letras celestes */
+}
+.wallet-title {
+    color: #87CEEB; /* Letras celestes */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.wallet-button {
+    padding: 10px 20px;
+    background-color: #87CEEB; /* Fondo celeste */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+.wallet-button:hover {
+    background-color: #6495ED; /* Fondo celeste más oscuro */
+}
+#transactionsList {
+    list-style-type: none;
+    padding: 0;
+}
+#transactionsList li {
+    background-color: rgba(135, 206, 235, 0.5); /* Fondo celeste semitransparente */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
