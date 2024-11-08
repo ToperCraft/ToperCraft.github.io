@@ -3,7 +3,7 @@ body {
     background-color: #000000; /* Fondo negro */
     margin: 0;
     padding: 0;
-    color: #ff8c00; /* Letras naranjas */
+    color: #87CEEB; /* Letras celestes */
 }
 .container {
     max-width: 600px;
@@ -16,7 +16,7 @@ body {
 }
 .title {
     text-align: center;
-    color: #ff8c00;
+    color: #87CEEB; /* Letras celestes */
     margin-bottom: 20px;
 }
 .event {
@@ -26,32 +26,32 @@ body {
     margin-bottom: 20px;
 }
 .event-title {
-    color: #ff8c00;
+    color: #87CEEB; /* Letras celestes */
     font-size: 1.5em;
     margin-bottom: 10px;
 }
 .invite-button {
     padding: 10px 20px;
-    background-color: #ff8c00;
-    color: white;
+    background-color: #87CEEB; /* Fondo celeste */
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
 }
 .invite-button:hover {
-    background-color: #e67600;
+    background-color: #6495ED; /* Fondo celeste más oscuro */
 }
 .referral-stats {
     font-size: 1.2em;
-    color: #ff8c00;
+    color: #87CEEB; /* Letras celestes */
 }
 .menu {
     display: flex;
     justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
     padding: 10px 0;
-    border-top: 1px solid #ff8c00;
+    border-top: 1px solid #87CEEB; /* Borde celeste */
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -64,9 +64,10 @@ body {
 .menu-item img {
     width: 30px;
     height: 30px;
+    filter: brightness(0) invert(1); /* Asegura visibilidad de iconos en fondo oscuro */
 }
 .menu-item span {
     display: block;
     margin-top: 5px;
-    color: #ff8c00;
+    color: #87CEEB; /* Letras celestes */
 }
