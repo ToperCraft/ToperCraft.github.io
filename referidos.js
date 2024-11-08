@@ -15,6 +15,6 @@ function copyLink() {
 }
 
 function shareTelegram() {
-    var referralLink = document.getElementById("referralLink").value;
+    var referralLink = "https://t.me/ToperCraft";
     window.open(`https://t.me/share/url?url=${encodeURIComponent(referralLink)}&text=Únete a ToperCraft!`);
 }
