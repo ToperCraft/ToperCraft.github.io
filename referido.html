@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Referidos - ToperCraft</title>
-    <link rel="stylesheet" href="referidos.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1 class="title">Referidos</h1>
     <div class="container">
-        <p>Invita a tus amigos y gana recompensas cuando se registren y participen en ToperCraft.</p>
-        <label for="referralLink">Tu enlace de referido:</label>
-        <div class="referral-link">
-            <input type="text" id="referralLink" value="https://www.topercraft.com/?ref=tu_codigo" readonly>
-            <button onclick="copyLink()">Copiar</button>
+        <div class="event">
+            <h2 class="event-title">¡Evento Mega! Todos los referidos x10</h2>
+            <p>Invita a tus amigos y gana recompensas cuando se registren y participen en ToperCraft.</p>
+            <ul>
+                <li>Invita a un amigo: +2000 GHOST</li>
+                <li>Invita a un amigo con cuenta premium: +5000 GHOST</li>
+            </ul>
+            <button class="invite-button" onclick="shareTelegram()">Invitar a un amigo</button>
         </div>
-        <div class="social-share">
-            <p>Comparte en Telegram:</p>
-            <button onclick="shareTelegram()">Telegram</button>
+        <div class="referral-stats">
+            <p>No has invitado a ningún amigo aún.</p>
         </div>
-        <p>Referidos exitosos: <span id="successfulReferrals">0</span></p>
     </div>
     <div class="menu">
         <div class="menu-item" onclick="location.href='index.html'">
