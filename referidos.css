@@ -1,14 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    background: url('imagenes/fondos/fondo.jpeg') no-repeat center center fixed;
-    background-size: cover;
+    background-color: #000000; /* Fondo negro */
     margin: 0;
     padding: 0;
+    color: #ff8c00; /* Letras naranjas */
 }
 .container {
     max-width: 600px;
     margin: 50px auto;
-    background-color: rgba(255, 000, 000, 0.1); /* Fondo semitransparente */
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo negro semitransparente */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -16,11 +16,11 @@ body {
 }
 .title {
     text-align: center;
-    color: #333;
+    color: #ff8c00;
     margin-bottom: 20px;
 }
 .event {
-    background-color: rgba(255, 237, 204, 0.1); /* Fondo semitransparente */
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro semitransparente */
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -32,7 +32,7 @@ body {
 }
 .invite-button {
     padding: 10px 20px;
-    background-color: #000000;
+    background-color: #ff8c00;
     color: white;
     border: none;
     border-radius: 5px;
@@ -40,18 +40,18 @@ body {
     margin-top: 20px;
 }
 .invite-button:hover {
-    background-color: #000000;
+    background-color: #e67600;
 }
 .referral-stats {
     font-size: 1.2em;
-    color: #777;
+    color: #ff8c00;
 }
 .menu {
     display: flex;
     justify-content: space-around;
-    background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
     padding: 10px 0;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #ff8c00;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -68,5 +68,5 @@ body {
 .menu-item span {
     display: block;
     margin-top: 5px;
-    color: #333;
+    color: #ff8c00;
 }
