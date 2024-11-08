@@ -1,13 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: url('imagenes/fondos/fondo.jpeg') no-repeat center center fixed;
+    background-size: cover;
     margin: 0;
     padding: 0;
 }
 .container {
     max-width: 600px;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -48,9 +49,12 @@ body {
 .menu {
     display: flex;
     justify-content: space-around;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 10px 0;
     border-top: 1px solid #ddd;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .menu-item {
     text-align: center;
