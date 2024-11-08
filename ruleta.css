@@ -52,12 +52,12 @@ body {
 }
 
 #spinButton:hover {
-    background-color: #0056b3;
+    background-color: orange;
 }
 
 #totalWon, #nextSpin {
     font-size: 18px;
-    color: white;
+    color: #87CEEB;
 }
 
 .menu {
@@ -72,7 +72,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
+    color: #87CEEB;
 }
 
 .menu-item img {
